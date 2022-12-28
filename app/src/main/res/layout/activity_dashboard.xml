@@ -20,12 +20,12 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="140dp">
+        android:layout_height="90dp">
 
       <LinearLayout
           android:layout_width="400dp"
           android:layout_height="46dp"
-          android:layout_marginTop="40dp"
+          android:layout_marginTop="20dp"
           android:orientation="horizontal"
 
           >
@@ -35,14 +35,16 @@
             android:layout_height="50dp"
             android:layout_gravity="start"
             android:padding="10dp"
-            android:src="@drawable/dash" />
+            android:src="@drawable/dashboard" />
         />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:paddingTop="10dp"
+            android:fontFamily="@font/typo"
             android:gravity="center"
             android:text="Selamat Datang di GaniPedia"
             android:textColor="@color/secondary"
@@ -93,12 +95,15 @@
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:src="@drawable/keranjang2"
-            android:onClick="shopping"
+            android:onClick="content"
             android:padding="10dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/typo"
+            android:textSize="15dp"
             android:layout_margin="10dp"
+
             android:textStyle="bold"
             android:text="Shooping"/>
         <View
@@ -129,13 +134,15 @@
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:src="@drawable/product11"
-            android:onClick="content"
+            android:onClick="product"
             android:padding="10dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="@font/typo"
             android:text="Product"/>
         <View
             android:layout_width="match_parent"
@@ -174,13 +181,15 @@
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:src="@drawable/rating11"
-            android:onClick="product"
+            android:onClick="shopping"
             android:padding="10dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="@font/typo"
             android:text="Feedback"/>
         <View
             android:layout_width="match_parent"
@@ -205,6 +214,7 @@
         <ImageView
             android:layout_width="64dp"
             android:layout_height="64dp"
+            android:textSize="15dp"
             android:onClick="contact"
             android:src="@drawable/customer111"
             android:padding="10dp"/>
@@ -212,6 +222,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:fontFamily="@font/typo"
             android:textStyle="bold"
             android:text="Customer Service"/>
         <View
@@ -233,6 +244,7 @@
   <Button
       android:id="@+id/button4"
       android:layout_width="wrap_content"
+      android:fontFamily="@font/typo"
       android:layout_height="wrap_content"
       android:layout_gravity="center"
       android:layout_marginTop="50dp"
